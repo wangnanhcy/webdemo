@@ -29,9 +29,9 @@ public class LoginServlet extends HttpServlet {
 
             PrintWriter writer = resp.getWriter();
             if(password.equals(pwd)){
-                writer.write("输入正确");
+                writer.write("正确");
             }else{
-                writer.write("输入错误");
+                writer.write("错误");
             }
         } catch (Exception e) {
             e.printStackTrace();

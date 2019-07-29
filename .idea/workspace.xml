@@ -19,13 +19,34 @@
       <change afterPath="$PROJECT_DIR$/../JDBC_Demo/src/jdbcdemo/JDBCUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JDBC_Demo/src/jdbcdemo/MainTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ideaworkspace/src/HelloWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/andios/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/andios/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/andios/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lib/mysql-connector-java-5.1.47-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/src/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/src/org/andios/servlet/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/src/org/andios/servlet/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/src/org/andios/servlet/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/src/org/andios/servlet/servlet/UserLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/src/org/andios/servlet/servlet/UserRegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/src/org/andios/servlet/utils/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/src/org/andios/servlet/utils/UTFFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/web/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/web/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/web/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/web/index/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jsp_servlet2/web/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/jdbc_servlrt_demo_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/jdbc_servlrt_demo_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-servlrt-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-servlrt-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jdbc_servlrt_demo_war_exploded/WEB-INF/classes/cn/andios/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jdbc_servlrt_demo_war_exploded/WEB-INF/classes/cn/andios/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/jdbc_servlrt_demo_war_exploded/WEB-INF/classes/cn/andios/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/jdbc_servlrt_demo_war_exploded/WEB-INF/classes/cn/andios/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jdbc-servlrt-demo/cn/andios/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc-servlrt-demo/cn/andios/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/jdbc-servlrt-demo/cn/andios/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc-servlrt-demo/cn/andios/servlet/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/andios/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/andios/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/andios/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/andios/servlet/LoginServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/andios/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+            <state relative-caret-position="600">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,12 +86,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/andios/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="25">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#release#0;class#UserDao#0" />
                 <element signature="method#release#1;class#UserDao#0" />
                 <element signature="method#closeRs#0;class#UserDao#0" />
@@ -81,11 +103,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/andios/servlet/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="441">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +135,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -117,8 +148,9 @@
         <option value="$PROJECT_DIR$/src/andios/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/cn/andios/servlet/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/cn/andios/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/cn/andios/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/cn/andios/dao/UserDao.java" />
       </list>
     </option>
   </component>
@@ -129,22 +161,11 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/lib__2_.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="793" />
-    <option name="y" value="2" />
-    <option name="width" value="1258" />
-    <option name="height" value="1029" />
+    <option name="x" value="815" />
+    <option name="y" value="7" />
+    <option name="width" value="1448" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,27 +194,6 @@
             <path>
               <item name="jdbc-servlet-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdbc-servlrt-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="andios" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdbc-servlet-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc-servlrt-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="andios" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdbc-servlet-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc-servlrt-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="andios" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdbc-servlet-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc-servlrt-demo" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -201,6 +201,12 @@
               <item name="jdbc-servlrt-demo" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdbc-servlet-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdbc-servlrt-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdbc-servlet-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -228,12 +234,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javaproject\jdbc-servlrt-demo\web\lib" />
       <recent name="D:\javaproject\jdbc-servlrt-demo\src" />
+      <recent name="D:\javaproject\jdbc-servlrt-demo\web\lib" />
       <recent name="D:\javaproject\jdbc-servlrt-demo\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -414,18 +423,28 @@
       <updated>1564141887501</updated>
       <workItem from="1564141890384" duration="7116000" />
       <workItem from="1564195163031" duration="9394000" />
-      <workItem from="1564239718149" duration="422000" />
+      <workItem from="1564239718149" duration="1332000" />
+      <workItem from="1564281548709" duration="1314000" />
+      <workItem from="1564285370212" duration="3041000" />
+      <workItem from="1564362598732" duration="1459000" />
     </task>
+    <task id="LOCAL-00001" summary="登录界面">
+      <created>1564240242888</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564240242888</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16932000" />
+    <option name="totallyTimeSpent" value="23656000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="635" y="2" width="1006" height="823" extended-state="0" />
-    <editor active="true" />
+    <frame x="877" y="6" width="933" height="824" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23839663" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30742857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -435,13 +454,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22286542" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26589596" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32756132" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.33142856" />
@@ -454,13 +473,21 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.23417722" />
+      <window_info anchor="right" id="Database" order="6" weight="0.1427614" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="登录界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录界面" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/716eea3c-af75-49c3-b616-81da9082d018/console.sql">
@@ -486,31 +513,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2591667e-c38d-4af5-92bc-3c60498f8f0b/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/andios/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        <state relative-caret-position="600">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/andios/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/andios/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="25">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#release#0;class#UserDao#0" />
             <element signature="method#release#1;class#UserDao#0" />
             <element signature="method#closeRs#0;class#UserDao#0" />
@@ -520,22 +565,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/andios/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>jdbc-servlrt-demo:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jdbc-servlrt-demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
